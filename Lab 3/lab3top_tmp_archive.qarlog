@@ -1,0 +1,31 @@
+Quartus Prime Archive log --	E:/lab3/lab3top_tmp_archive.qarlog
+
+Archive:	E:/lab3/lab3top_tmp_archive.qar
+Date:		Tue Oct 30 00:14:40 2018
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Graydon/Documents/School/University of Ottawa/Second Year/CEG 2136/CEG2136/CEG2136/Lab3/Lab3.bdf
+E:/lab3/Block2.bdf
+E:/lab3/UpdatedBlock2.bdf
+E:/lab3/arithcircuit4bits.bdf
+E:/lab3/assignment_defaults.qdf
+E:/lab3/fulladder1bit.bdf
+E:/lab3/lab3top.bdf
+E:/lab3/lab3top.qpf
+E:/lab3/lab3top.qsf
+E:/lab3/lab3top_assignment_defaults.qdf
+E:/lab3/logiccircuit1bit.bdf
+E:/lab3/logiccircuit4bits.bdf
+E:/lab3/register4bits.bdf
+E:/lab3/state4bits.bdf
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Oct 30 00:14:43 2018
+Source archive file:	E:/lab3/lab3top_tmp_archive.qar
+Archive was extracted into	C:/Users/Graydon/Documents/School/University of Ottawa/Second Year/CEG 2136/CEG2136/CEG2136/Lab3/
+		 - successfully.
