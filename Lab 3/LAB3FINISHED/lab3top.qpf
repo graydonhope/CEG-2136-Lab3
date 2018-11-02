@@ -16,15 +16,16 @@
 #
 # -------------------------------------------------------------------------- #
 #
-# Quartus II 64-Bit
+# Quartus II 32-bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-# Date created = 16:10:06  October 09, 2018
+# Date created = 18:41:39  October 30, 2018
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.0"
-DATE = "16:10:06  October 09, 2018"
+DATE = "18:41:39  October 30, 2018"
 
 # Revisions
 
 PROJECT_REVISION = "lab3top"
+PROJECT_REVISION = "lab3top_qsim"

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE115F29C7
-set_global_assignment -name TOP_LEVEL_ENTITY arithcircuit4bits
+set_global_assignment -name TOP_LEVEL_ENTITY lab3top
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:10:06  OCTOBER 09, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
@@ -55,9 +55,37 @@ set_global_assignment -name BDF_FILE fulladder1bit.bdf
 set_global_assignment -name BDF_FILE state4bits.bdf
 set_global_assignment -name BDF_FILE Block2.bdf
 set_global_assignment -name BDF_FILE arithcircuit4bits.bdf
+set_global_assignment -name BDF_FILE UpdatedBlock2.bdf
+set_global_assignment -name BDF_FILE "C:/Users/Graydon/Documents/School/University of Ottawa/Second Year/CEG 2136/CEG2136/CEG2136/Lab3/Lab3.bdf"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name BDF_FILE UpdatedBlock2.bdf
-set_global_assignment -name BDF_FILE "C:/Users/Graydon/Documents/School/University of Ottawa/Second Year/CEG 2136/CEG2136/CEG2136/Lab3/Lab3.bdf"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/lab3_Good/CEG-2136-Lab3/Lab 3/Waveform6.vwf"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AB28 -to A0
+set_location_assignment PIN_AC28 -to A1
+set_location_assignment PIN_AC27 -to A2
+set_location_assignment PIN_AD27 -to A3
+set_location_assignment PIN_AB27 -to B0
+set_location_assignment PIN_AC26 -to B1
+set_location_assignment PIN_AD26 -to B2
+set_location_assignment PIN_AB26 -to B3
+set_location_assignment PIN_G19 -to C0
+set_location_assignment PIN_F19 -to C1
+set_location_assignment PIN_E19 -to C2
+set_location_assignment PIN_F21 -to C3
+set_location_assignment PIN_Y2 -to clk
+set_location_assignment PIN_AA24 -to clr
+set_location_assignment PIN_E21 -to CY
+set_location_assignment PIN_E22 -to S
+set_location_assignment PIN_AA23 -to S0
+set_location_assignment PIN_AA22 -to S1
+set_location_assignment PIN_Y24 -to S2
+set_location_assignment PIN_Y23 -to S3
+set_location_assignment PIN_E24 -to V
+set_location_assignment PIN_E25 -to Z
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

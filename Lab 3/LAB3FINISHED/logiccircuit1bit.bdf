@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 248 224 416 240)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "S2" (rect 5 0 18 12)(font "Arial" ))
+	(text "S2" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 248 240 416 256)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "S1" (rect 5 0 18 12)(font "Arial" ))
+	(text "S1" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 248 256 416 272)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "S0" (rect 5 0 18 12)(font "Arial" ))
+	(text "S0" (rect 5 0 17 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 512 352 528)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Ai" (rect 5 0 15 12)(font "Arial" ))
+	(text "Ai" (rect 5 0 14 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 528 352 544)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "Bi" (rect 5 0 15 12)(font "Arial" ))
+	(text "Bi" (rect 5 0 14 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -103,7 +103,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 560 352 576)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "AiMinus1" (rect 5 0 49 12)(font "Arial" ))
+	(text "AiMinus1" (rect 5 0 48 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -119,7 +119,7 @@ applicable agreement for further details.
 	(input)
 	(rect 184 576 352 592)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "AiPlus1" (rect 5 0 42 12)(font "Arial" ))
+	(text "AiPlus1" (rect 5 0 41 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -455,6 +455,23 @@ applicable agreement for further details.
 		(circle (rect 31 12 39 20))
 	)
 )
+(symbol
+	(rect 784 584 816 616)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 21 26 33)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 448 272)
 	(pt 448 280)
@@ -580,20 +597,8 @@ applicable agreement for further details.
 	(pt 832 376)
 )
 (connector
-	(pt 832 408)
-	(pt 736 408)
-)
-(connector
-	(pt 832 232)
-	(pt 416 232)
-)
-(connector
 	(pt 416 248)
 	(pt 832 248)
-)
-(connector
-	(pt 416 264)
-	(pt 832 264)
 )
 (connector
 	(pt 408 536)
@@ -610,10 +615,6 @@ applicable agreement for further details.
 (connector
 	(pt 712 568)
 	(pt 352 568)
-)
-(connector
-	(pt 736 408)
-	(pt 736 584)
 )
 (connector
 	(pt 736 584)
@@ -634,6 +635,54 @@ applicable agreement for further details.
 (connector
 	(pt 392 512)
 	(pt 392 520)
+)
+(connector
+	(pt 416 232)
+	(pt 808 232)
+)
+(connector
+	(pt 808 232)
+	(pt 808 264)
+)
+(connector
+	(pt 832 264)
+	(pt 808 264)
+)
+(connector
+	(pt 832 232)
+	(pt 816 232)
+)
+(connector
+	(pt 816 216)
+	(pt 816 232)
+)
+(connector
+	(pt 432 216)
+	(pt 816 216)
+)
+(connector
+	(pt 432 216)
+	(pt 432 264)
+)
+(connector
+	(pt 416 264)
+	(pt 432 264)
+)
+(connector
+	(pt 832 392)
+	(pt 736 392)
+)
+(connector
+	(pt 736 392)
+	(pt 736 584)
+)
+(connector
+	(pt 832 408)
+	(pt 800 408)
+)
+(connector
+	(pt 800 408)
+	(pt 800 584)
 )
 (junction (pt 480 280))
 (junction (pt 392 384))

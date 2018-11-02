@@ -277,9 +277,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 536 128 656 288)
+	(rect 544 128 664 288)
 	(text "logiccircuit1bit" (rect 5 0 85 14)(font "Arial" (font_size 8)))
-	(text "LSC3" (rect 8 144 35 156)(font "Arial" ))
+	(text "inst1" (rect 8 144 31 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -343,7 +343,7 @@ applicable agreement for further details.
 (symbol
 	(rect 536 320 656 480)
 	(text "logiccircuit1bit" (rect 5 0 85 14)(font "Arial" (font_size 8)))
-	(text "LSC2" (rect 8 144 35 156)(font "Arial" ))
+	(text "inst2" (rect 8 144 31 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -407,7 +407,7 @@ applicable agreement for further details.
 (symbol
 	(rect 536 512 656 672)
 	(text "logiccircuit1bit" (rect 5 0 85 14)(font "Arial" (font_size 8)))
-	(text "LSC1" (rect 8 144 35 156)(font "Arial" ))
+	(text "inst3" (rect 8 144 31 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -471,7 +471,7 @@ applicable agreement for further details.
 (symbol
 	(rect 536 712 656 872)
 	(text "logiccircuit1bit" (rect 5 0 85 14)(font "Arial" (font_size 8)))
-	(text "LSC0" (rect 8 144 35 156)(font "Arial" ))
+	(text "inst5" (rect 8 144 31 156)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -531,30 +531,6 @@ applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 104 144))
 	)
-)
-(connector
-	(pt 496 160)
-	(pt 496 40)
-)
-(connector
-	(pt 536 160)
-	(pt 496 160)
-)
-(connector
-	(pt 488 72)
-	(pt 488 176)
-)
-(connector
-	(pt 536 176)
-	(pt 488 176)
-)
-(connector
-	(pt 480 104)
-	(pt 480 192)
-)
-(connector
-	(pt 536 192)
-	(pt 480 192)
 )
 (connector
 	(pt 536 352)
@@ -653,10 +629,6 @@ applicable agreement for further details.
 	(pt 760 352)
 )
 (connector
-	(pt 656 160)
-	(pt 744 160)
-)
-(connector
 	(pt 312 40)
 	(pt 496 40)
 )
@@ -675,26 +647,6 @@ applicable agreement for further details.
 (connector
 	(pt 200 808)
 	(pt 536 808)
-)
-(connector
-	(pt 200 224)
-	(pt 536 224)
-)
-(connector
-	(pt 536 256)
-	(pt 464 256)
-)
-(connector
-	(pt 536 240)
-	(pt 496 240)
-)
-(connector
-	(pt 496 240)
-	(pt 496 400)
-)
-(connector
-	(pt 200 400)
-	(pt 496 400)
 )
 (connector
 	(pt 536 432)
@@ -737,10 +689,6 @@ applicable agreement for further details.
 	(pt 528 400)
 )
 (connector
-	(pt 496 400)
-	(pt 528 400)
-)
-(connector
 	(pt 528 400)
 	(pt 536 400)
 )
@@ -765,14 +713,6 @@ applicable agreement for further details.
 	(pt 496 592)
 )
 (connector
-	(pt 464 208)
-	(pt 520 208)
-)
-(connector
-	(pt 520 208)
-	(pt 536 208)
-)
-(connector
 	(pt 656 744)
 	(pt 760 744)
 )
@@ -789,12 +729,72 @@ applicable agreement for further details.
 	(pt 200 168)
 )
 (connector
+	(pt 496 40)
+	(pt 496 160)
+)
+(connector
+	(pt 488 72)
+	(pt 488 176)
+)
+(connector
+	(pt 480 104)
+	(pt 480 192)
+)
+(connector
+	(pt 496 400)
+	(pt 496 240)
+)
+(connector
+	(pt 744 160)
+	(pt 664 160)
+)
+(connector
+	(pt 200 400)
+	(pt 496 400)
+)
+(connector
+	(pt 496 400)
+	(pt 528 400)
+)
+(connector
 	(pt 464 168)
 	(pt 464 208)
 )
 (connector
 	(pt 464 208)
 	(pt 464 256)
+)
+(connector
+	(pt 464 208)
+	(pt 520 208)
+)
+(connector
+	(pt 496 160)
+	(pt 544 160)
+)
+(connector
+	(pt 488 176)
+	(pt 544 176)
+)
+(connector
+	(pt 480 192)
+	(pt 544 192)
+)
+(connector
+	(pt 520 208)
+	(pt 544 208)
+)
+(connector
+	(pt 200 224)
+	(pt 544 224)
+)
+(connector
+	(pt 496 240)
+	(pt 544 240)
+)
+(connector
+	(pt 464 256)
+	(pt 544 256)
 )
 (junction (pt 312 40))
 (junction (pt 312 352))
